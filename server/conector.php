@@ -109,7 +109,7 @@ class ConectorBD
         }else {
           $sql .= ');';
         }
-        $i++;
+        $i++; 
       }
       
       $query =  $this->ejecutarQuery($sql); //Ejecutar sentencia SQL
